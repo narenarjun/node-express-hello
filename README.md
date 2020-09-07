@@ -6,4 +6,8 @@ You can get the Container image by running the following docker command,
 
 `docker pull quay.io/narendev/node-express-hello`
 
-The app serves only one route and returns a simple hello message along with a count of how many times it's been pinged.
+The app serves three `GET` routes.
+-  `\` -   returns a simple hello message along with a count of how many times it's been pinged.
+- `healthz` - returns a `200` code {It is used for liveness probe }
+-  `readyz` - returns a `200` code {It is used for readyness probe}
+
