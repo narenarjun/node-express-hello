@@ -7,7 +7,7 @@ let count = 0;
 
 router.get("/",(req, res) => {
     count++;
-    res.status(200).send(`Express-Node Hello from  ${os.hostname} -- ${count} \n`)
+    res.status(200).send(`Express-Node Bonjour from  ${os.hostname} -- ${count} \n`)
 
 })
 
