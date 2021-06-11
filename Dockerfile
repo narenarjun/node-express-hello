@@ -1,4 +1,4 @@
-FROM node:14.9.0-alpine3.12
+FROM quay.io/narendev/fishnode:alpine
 
 LABEL maintainer="narendran 'narendev0610@gmail.com'"
 
